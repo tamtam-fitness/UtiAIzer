@@ -1,2 +1,3 @@
 ENV: "local"
 SENTRY_DSN:
+OPENAI_API_KEY: your-api-key

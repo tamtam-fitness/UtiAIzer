@@ -1,2 +1,3 @@
 ENV: 'test'
 SENTRY_DSN:
+OPENAI_API_KEY: test-key
