@@ -1,4 +1,4 @@
-from src.module.temp_class import TempClass
+from src.service.temp_class import TempClass
 
 
 class TestTempClass:
