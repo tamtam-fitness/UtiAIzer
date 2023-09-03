@@ -5,8 +5,11 @@ from .config import read_yaml
 from .logger import init_logger
 
 env = os.environ["ENV"]
-settings = read_yaml(f"{os.getcwd()}/src/common/yaml_configs/{env}.yaml")
+base_dir = os.environ["BASE_DIR"]
 
-# loggerの初期化
-init_logger(settings.LOGGER_CONFIG_PATH)
-logger = logging.getLogger(__name__)
+settings = read_yaml(os.path.join(base_dir, f"src/common/yaml_configs/{env}.yaml"))
+
+init_logger(
+    os.path.join(settings.BASE_DIR, "src/common/logger/logging_config.yaml")
+)
+app_logger = logging.getLogger(__name__)
