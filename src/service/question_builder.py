@@ -28,6 +28,6 @@ class WordQuestionBuilder(QuestionBuilderBase):
         "example_sentence": """Using "{word}, output one example sentence within 70 characters".""",
         "making_sentence_tips": """output tips for making sentences using "{word}" in terms on nuance and feeling for non-native speaker. Within 80 characters""",  # noqa
         "synonym": """output "{word}"s one synonym .Then tell the difference between "{word}" and the other within 100 characters""",  # noqa
-        "antonym": """output "{word}"s one antonym .""",  # noqa
+        "antonym": """output "{word}"s one antonym .""",
         "collocation": """output "{word}"s collocations 7 times following grammer, separated with "|" . e.g: "{word} noun|{word} verb" """,  # noqa
     }
