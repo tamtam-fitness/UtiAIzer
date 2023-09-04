@@ -1,2 +1,3 @@
 ENV: "local"
 SENTRY_DSN:
+OPENAI_API_KEY: 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

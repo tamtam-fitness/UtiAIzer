@@ -1,4 +1,4 @@
-# python-template-based-on-docker
+# utilizer
 
 FYI: [Dockerコンテナ上で動くPythonの開発環境のテンプレートを作ってみた](https://zenn.dev/fitness_densuke/articles/python_template_based_on_docker)
 

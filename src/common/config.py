@@ -1,5 +1,3 @@
-import os
-
 import yaml
 from pydantic import HttpUrl
 from pydantic_settings import BaseSettings
@@ -8,7 +6,8 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     SENTRY_DSN: HttpUrl | None = None
     ENV: str | None = None
-    LOGGER_CONFIG_PATH: str = f"{os.getcwd()}/src/common/logger/logging_config.yaml"
+    BASE_DIR: str
+    OPENAI_API_KEY: str
 
     class Config:
         case_sensitive = True
