@@ -2,7 +2,11 @@
 
 ## Demo
 
-https://github.com/tamtam-fitness/UtiAIzer/assets/62091034/5769797d-0765-493c-af0f-2d85c783f854
+
+
+https://github.com/tamtam-fitness/UtiAIzer/assets/62091034/845d4a7d-53ac-4fca-815d-4652f04b622a
+
+
 
 ## Prerequisites
 
