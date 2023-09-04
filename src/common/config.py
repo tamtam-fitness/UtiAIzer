@@ -1,5 +1,3 @@
-import os
-
 import yaml
 from pydantic import HttpUrl
 from pydantic_settings import BaseSettings

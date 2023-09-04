@@ -2,7 +2,7 @@
 
 setup:
 	docker compose down
-	docker compose up -d
+	docker compose up -d --build
 
 enter_container:
 	docker exec -it python_app bash
