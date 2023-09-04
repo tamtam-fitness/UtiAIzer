@@ -1,15 +1,19 @@
 from pydantic import BaseModel, Field, validator
 
 
+class NotEnglishError(ValueError):
+    pass
+
+
 class EnglishWord(BaseModel):
-    value: str = Field(max_length=20)
+    value: str = Field(max_length=30)
 
     @validator("value")
-    def is_english(cls, v):
+    def is_english(cls, v: str) -> str:
         try:
-            v.encode('ascii')
+            v.encode("ascii")
         except UnicodeEncodeError:
-            raise ValueError("English only")
+            raise NotEnglishError("English only") from None
         return v
 
 
