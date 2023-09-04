@@ -15,5 +15,6 @@ services:
       - BASE_DIR=/app
       - PYTHONPATH=/app
       - ENV=local
+      - OPENAI_API_KEY=<your-api-key>
     tty: true
     stdin_open: true

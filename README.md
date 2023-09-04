@@ -1,6 +1,8 @@
-# utilizer
+# UtiAIzer
 
-FYI: [Dockerコンテナ上で動くPythonの開発環境のテンプレートを作ってみた](https://zenn.dev/fitness_densuke/articles/python_template_based_on_docker)
+## Demo
+
+https://github.com/tamtam-fitness/UtiAIzer/assets/62091034/5769797d-0765-493c-af0f-2d85c783f854
 
 ## Prerequisites
 
