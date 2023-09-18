@@ -7,9 +7,9 @@ import logging
 import os
 import sys
 
-logging.info(os.getcwd())
-logging.info(os.getenv("BASE_DIR"))
-logging.info(sys.path)
+print(os.getcwd())
+print(os.getenv("BASE_DIR"))
+print(sys.path)
 
 from src.common import app_logger, settings
 from src.model.models import Answer, Question
