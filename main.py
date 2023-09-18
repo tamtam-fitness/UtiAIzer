@@ -7,8 +7,8 @@ import streamlit_mermaid as stmd
 from pydantic import ValidationError
 from service import OpenAISSEClient, WordQuestionBuilder
 
-from src.common import app_logger
-from src.model.models import EnglishWord
+from common import app_logger
+from model.models import EnglishWord
 
 USER_NAME = "user"
 ASSISTANT_NAME = "assistant"

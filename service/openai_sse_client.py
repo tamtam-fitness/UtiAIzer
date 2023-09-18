@@ -2,8 +2,8 @@ from collections.abc import Iterable
 
 import openai
 
-from src.common import app_logger, settings
-from src.model.models import Answer, Question
+from common import app_logger, settings
+from model.models import Answer, Question
 
 openai.api_key = settings.OPENAI_API_KEY
 

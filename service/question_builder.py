@@ -1,4 +1,4 @@
-from src.model.models import EnglishWord, Question
+from model.models import EnglishWord, Question
 
 Key = str
 
