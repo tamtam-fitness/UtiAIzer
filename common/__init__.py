@@ -7,7 +7,7 @@ from .logger import init_logger
 env = os.environ["ENV"]
 base_dir = os.environ["BASE_DIR"]
 
-settings = read_yaml(os.path.join(base_dir, f"src/common/yaml_configs/{env}.yaml"))
+settings = read_yaml(os.path.join(base_dir, f"common/yaml_configs/{env}.yaml"))
 
-init_logger(os.path.join(settings.BASE_DIR, "src/common/logger/logging_config.yaml"))
+init_logger(os.path.join(settings.BASE_DIR, "common/logger/logging_config.yaml"))
 app_logger = logging.getLogger(__name__)
