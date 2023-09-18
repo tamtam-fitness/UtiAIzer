@@ -1,3 +1,4 @@
+import os
 print(os.getcwd())
 print(os.getenv("BASE_DIR"))
 print(sys.path)
