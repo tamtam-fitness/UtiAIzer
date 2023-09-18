@@ -219,7 +219,7 @@ def ask() -> None:
                 )
             except Exception as e:
                 app_logger.exception(e)
-                # st.error('Sorry, something went wrong.')
+                st.error('Sorry, something went wrong.')
         # セッションにチャットログを追加
         chat_log.append({"name": USER_NAME, "msg": user_msg})
         chat_log.append({"name": ASSISTANT_NAME, "msg": assistant_msg})
