@@ -2,6 +2,15 @@ from collections.abc import Iterable
 
 import openai
 
+import logging
+
+import os
+import sys
+
+logging.info(os.getcwd())
+logging.info(os.getenv("BASE_DIR"))
+logging.info(sys.path)
+
 from src.common import app_logger, settings
 from src.model.models import Answer, Question
 
